@@ -45,7 +45,7 @@ More details about the fine-tuning [here](https://github.com/axolotl-ai-cloud/ax
 ## Expected output
 It is necessary to provide a document that explains in detail all the operations performed during the project, also listing:
 - The problems encountered;
-- Their respective solutions.\
+- Their respective solutions.
 
 It is necessary to evaluate:
 - The model's performance;
