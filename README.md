@@ -34,8 +34,30 @@ More details about the fine-tuning [here](https://github.com/axolotl-ai-cloud/ax
 **advice:** if you choose to use this library use the docker version of it.
 
 
+## Foundamental steps
+1. Analyze the problem, decide on the objects to use, and define the tasks (at least 2)
+2. Study how to perform fine-tuning of a generative model
+3. Choose the generative model on which to perform fine-tuning
+4. Create the dataset
+5. Perform the fine-tuning
+6. Test the model
+
+## Expected output
+It is necessary to provide a document that explains in detail all the operations performed during the project, also listing:
+- The problems encountered;
+- Their respective solutions.
+
+Additionally, it is necessary to evaluate:
+- The model's performance;
+- Its reliability;
+- The inference time.
+
+**optional**: animation in Matplotlib of the actions performed by the robot
+
+
+
 ## Usefull imports
 ```bash
 pip  install trl peft torch datasets transformers jupyterlab accelerate tiktoken matplotlib bitsandbytes evaluate scikit-learn
 ```
-**optional**: docker
+
