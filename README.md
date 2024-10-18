@@ -40,7 +40,7 @@ More details about the fine-tuning [here](https://github.com/axolotl-ai-cloud/ax
 3. Choose the generative model on which to perform fine-tuning
 4. Create the dataset
 5. Perform the fine-tuning
-6. Test the model
+6. Test and evaluate the model
 
 ## Expected output
 It is necessary to provide a document that explains in detail all the operations performed during the project, also listing:
