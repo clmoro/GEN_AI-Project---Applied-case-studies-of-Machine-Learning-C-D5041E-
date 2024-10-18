@@ -45,17 +45,15 @@ More details about the fine-tuning [here](https://github.com/axolotl-ai-cloud/ax
 ## Expected output
 It is necessary to provide a document that explains in detail all the operations performed during the project, also listing:
 - The problems encountered;
-- Their respective solutions.
+- Their respective solutions.\
 
-Additionally, it is necessary to evaluate:
+It is necessary to evaluate:
 - The model's performance;
 - Its reliability;
 - The inference time.
 
+Please upload the fine-tuned model on [HuggingFace](https://huggingface.co/docs/hub/models-uploading#upload-a-pytorch-model-using-huggingfacehub).\
 **optional**: animation in Matplotlib of the actions performed by the robot
-
-
-
 ## Usefull imports
 ```bash
 pip  install trl peft torch datasets transformers jupyterlab accelerate tiktoken matplotlib bitsandbytes evaluate scikit-learn
