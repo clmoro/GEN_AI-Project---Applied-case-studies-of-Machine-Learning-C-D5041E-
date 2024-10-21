@@ -54,7 +54,7 @@ It is necessary to evaluate:
 
 Please upload the fine-tuned model on [HuggingFace](https://huggingface.co/docs/hub/models-uploading#upload-a-pytorch-model-using-huggingfacehub).\
 **optional**: animation in Matplotlib of the actions performed by the robot
-## Usefull imports
+## Useful imports
 ```bash
 pip  install trl peft torch datasets transformers jupyterlab accelerate tiktoken matplotlib bitsandbytes evaluate scikit-learn
 ```
