@@ -1,0 +1,5 @@
+docker run --name test_1 --gpus '"all"' -v ${PWD}:/workspace/axolotl/my_vol  --rm -it winglian/axolotl:main-latest
+cd my_vol
+huggingface-cli login --token <<YOUR TOKEN>> 
+CUDA_VISIBLE_DEVICES="0" python -m axolotl.cli.preprocess 3_1_test.yml
+CUDA_VISIBLE_DEVICES="0" python -m axolotl.cli.train 3_1_test.yml
